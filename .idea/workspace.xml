@@ -2,18 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6e8661b-4162-4832-b17a-dfe47c6111ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/counter-button/CounterButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/counter-button/CounterButton.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/counter-conclusion/CounterConclusion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/counter-conclusion/CounterConclusion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/counter-input/CounterInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/counter-input/CounterInput.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/counter/Counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/counter/Counter.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,9 +42,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -65,17 +82,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590852162479</updated>
-      <workItem from="1590852170421" duration="737000" />
+      <workItem from="1590852170421" duration="3314000" />
     </task>
+    <task id="LOCAL-00001" summary="-create react project">
+      <created>1590853650636</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590853650636</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-create react project" />
+    <option name="LAST_COMMIT_MESSAGE" value="-create react project" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1590853570101">
+    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1590853645878">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1590853570101" />
+    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1590853645878" />
+    <state x="552" y="266" key="Github.ShareDialog" timestamp="1590853709419">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="552" y="266" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1590853709419" />
   </component>
 </project>
