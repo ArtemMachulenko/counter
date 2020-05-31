@@ -38,12 +38,13 @@ export const Counter = () => {
                 if (!inputValue) return;
                 let value = +counter;
                 setCounter(value += inputValue);
-                // setInputValue(''); //очистить поле после добавления значения
+                // setInputValue(''); //очищать поле после добавления значения
             },
             'Reset': () => {
                 let value = +counter;
                 if (!value) return;
                 setCounter(0);
+                setInputValue(''); //очистить поле
             },
         };
 
@@ -74,6 +75,7 @@ export const Counter = () => {
     );
 }
 
+//----------------------------------------------------------
 // export const Counter = () => {
 //     const [counter, setCounter] = React.useState(0);
 //     const [inputValue, setInputValue] = React.useState('');
