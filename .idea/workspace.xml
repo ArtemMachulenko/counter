@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6e8661b-4162-4832-b17a-dfe47c6111ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/counter-button/CounterButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/counter-button/CounterButton.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/counter-conclusion/CounterConclusion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/counter-conclusion/CounterConclusion.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/counter-input/CounterInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/counter-input/CounterInput.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/counter/Counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/counter/Counter.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/counter-button/CounterButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/counter-button/CounterButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/counter/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/counter/Counter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -82,7 +74,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590852162479</updated>
-      <workItem from="1590852170421" duration="3314000" />
+      <workItem from="1590852170421" duration="4029000" />
+      <workItem from="1590915280864" duration="106000" />
+      <workItem from="1590923282632" duration="2047000" />
     </task>
     <task id="LOCAL-00001" summary="-create react project">
       <created>1590853650636</created>
@@ -91,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590853650636</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="-completed counter">
+      <created>1590856257160</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590856257160</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,16 +100,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-create react project" />
-    <option name="LAST_COMMIT_MESSAGE" value="-create react project" />
+    <MESSAGE value="-completed counter" />
+    <option name="LAST_COMMIT_MESSAGE" value="-completed counter" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1590853645878">
+    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1590856251215">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1590853645878" />
+    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1590856251215" />
+    <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1590858320085">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1590858320085" />
     <state x="552" y="266" key="Github.ShareDialog" timestamp="1590853709419">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="552" y="266" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1590853709419" />
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2" timestamp="1590856264323">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1590856264323" />
   </component>
 </project>
