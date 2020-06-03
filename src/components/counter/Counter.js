@@ -17,32 +17,33 @@ export const Counter = () => {
     const onButtonClick = (buttonName) => {
         const actions = {
             '+1': () => {
-                let value = +counter;
-                setCounter(value += 1);
+                setCounter(prevState => {
+                    return prevState += 1;
+                });
             },
             '-1': () => {
-                let value = +counter;
-                if (!value) return;
-                setCounter(value -= 1);
+                setCounter(prevState => {
+                    return prevState > 0? prevState -= 1: prevState;
+                });
             },
             '+100': () => {
-                let value = +counter;
-                setCounter(value += 100);
+                setCounter(prevState => {
+                    return prevState += 100;
+                });
             },
             '-100': () => {
-                let value = +counter;
-                if (value -100 < 0) return;
-                setCounter(value -= 100);
+                setCounter(prevState => {
+                    const currentState = prevState;
+                    return (currentState - 100) >= 0? prevState -= 100: prevState;
+                });
             },
             'Add value': () => {
-                if (!inputValue) return;
-                let value = +counter;
-                setCounter(value += inputValue);
+                setCounter(prevState => {
+                    return inputValue? prevState += inputValue: prevState;
+                });
                 // setInputValue(''); //очищать поле после добавления значения
             },
             'Reset': () => {
-                let value = +counter;
-                if (!value) return;
                 setCounter(0);
                 setInputValue(''); //очистить поле
             },
@@ -74,6 +75,83 @@ export const Counter = () => {
         </div>
     );
 }
+
+
+
+
+
+
+//=================================
+// export const Counter = () => {
+//     const buttons = ['Add value','+1', '-1', '+100', '-100', 'Reset'];
+//     const [counter, setCounter] = React.useState(0);
+//     const [inputValue, setInputValue] = React.useState('');
+//
+//     const onInputChange = (e) => {
+//         let value = +e.target.value;
+//         setInputValue(value > 0? value: '');
+//     }
+//
+//     const onButtonClick = (buttonName) => {
+//         const actions = {
+//             '+1': () => {
+//                 let value = +counter;
+//                 setCounter(value += 1);
+//             },
+//             '-1': () => {
+//                 let value = +counter;
+//                 if (!value) return;
+//                 setCounter(value -= 1);
+//             },
+//             '+100': () => {
+//                 let value = +counter;
+//                 setCounter(value += 100);
+//             },
+//             '-100': () => {
+//                 let value = +counter;
+//                 if (value -100 < 0) return;
+//                 setCounter(value -= 100);
+//             },
+//             'Add value': () => {
+//                 if (!inputValue) return;
+//                 let value = +counter;
+//                 setCounter(value += inputValue);
+//                 // setInputValue(''); //очищать поле после добавления значения
+//             },
+//             'Reset': () => {
+//                 let value = +counter;
+//                 if (!value) return;
+//                 setCounter(0);
+//                 setInputValue(''); //очистить поле
+//             },
+//         };
+//
+//         actions[buttonName]();
+//     }
+//
+//     return (
+//         <div className="counter-wrapper">
+//             <fieldset>
+//                 <legend className="counter-title">Counter</legend>
+//                 <p>
+//                     <CounterConclusion counter={counter} />
+//                 </p>
+//                 <p>
+//                     <CounterInput inputValue={inputValue} onInputChange={onInputChange} />
+//                 </p>
+//                 {
+//                     buttons.map((button,index) => {
+//                         return (
+//                             <p key={index}>
+//                                 <CounterButton onButtonClick={() => {onButtonClick(button)}}>{button}</CounterButton>
+//                             </p>
+//                         );
+//                     })
+//                 }
+//             </fieldset>
+//         </div>
+//     );
+// }
 
 //----------------------------------------------------------
 // export const Counter = () => {
