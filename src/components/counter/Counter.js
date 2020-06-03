@@ -10,7 +10,7 @@ export const Counter = () => {
     const [inputValue, setInputValue] = React.useState('');
 
     const onInputChange = (e) => {
-        let value = +e.target.value;
+        const value = +e.target.value;
         setInputValue(value);
     }
 
@@ -40,8 +40,8 @@ export const Counter = () => {
             'Add value': () => {
                 setCounter(prevState => {
                     const currentState = prevState;
-                    return (currentState + inputValue) >= 0? prevState += inputValue: prevState;
-
+                    const value = +inputValue;
+                    return (currentState + value) >= 0? prevState += value: prevState;
                 });
                 // setInputValue(''); //очищать поле после добавления значения
             },
