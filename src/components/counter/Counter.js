@@ -11,7 +11,7 @@ export const Counter = () => {
 
     const onInputChange = (e) => {
         let value = +e.target.value;
-        setInputValue(value > 0? value: '');
+        setInputValue(value);
     }
 
     const onButtonClick = (buttonName) => {
@@ -39,7 +39,9 @@ export const Counter = () => {
             },
             'Add value': () => {
                 setCounter(prevState => {
-                    return inputValue? prevState += inputValue: prevState;
+                    const currentState = prevState;
+                    return (currentState + inputValue) >= 0? prevState += inputValue: prevState;
+
                 });
                 // setInputValue(''); //очищать поле после добавления значения
             },
